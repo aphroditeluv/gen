@@ -30,3 +30,56 @@
 <script src="app.js"></script>    
 </body>
 </html>
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-image: url('desk.jpeg');
+
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px, rgba(0, 0,0, 0.2);
+    background-color: bisque;
+
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+label{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+#password{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(218, 194, 134);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#generate{
+    margin-top: 20px;
+    background-color: rgb(192, 130, 130);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+#generate:hover{
+    background-color:  rgb(194, 156, 156);
+}
